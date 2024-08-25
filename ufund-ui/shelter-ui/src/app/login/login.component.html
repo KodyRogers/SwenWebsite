@@ -1,0 +1,22 @@
+
+
+<h2>Login:</h2>
+
+<div [style.display]="isSignedIn ? 'none' : ''" class = "logininputs">
+    <p>User name: </p>
+    <input id="login-input" placeholder="">
+    <p>Password: </p>
+    <input id="login-input-password" placeholder="">
+    <p id="login-output"></p>
+</div>
+
+<div class = inButtons [style.display]="isSignedIn ? 'none' : ''">
+<button class = "logButtons"  type="button" (click)="login('login-input', 'login-input-password', 'login-output')">login</button>
+<button type="button" class = "logButtons" (click)="signup('login-input', 'login-input-password', 'login-output')">sign up</button>
+<br>
+</div>
+<div class = outButtons>
+<button [hidden]="!isSignedIn" class = "logButtons" type="button" (click)="logOut()">logout</button>
+<button type="button" class = "logButtons" (click)="goBack()">go back</button>
+<br>
+</div>

@@ -1,0 +1,22 @@
+
+<h2>Users</h2>
+
+<ul class="user">
+  <li *ngFor="let user of users; let i = index">
+    <a class="user-button" routerLink="/user/{{user.name}}">
+      <span class="badge">{{i+1}}</span> {{user.name}}
+    </a>
+  </li>
+</ul>
+
+
+
+<h2>Transactions</h2>
+
+<ul class="animals">
+  <li *ngFor="let tran of transactions.reverse()">
+    <a class="animal-button" routerLink="/detail/{{tran.animal}}">
+      <span class="badge">{{millisecondsToDate(tran.time)}}</span> <b>{{tran.user}}</b> purchased <b>{{animalsMap.get(tran.animal)?.name}}</b>
+    </a>
+  </li>
+</ul>

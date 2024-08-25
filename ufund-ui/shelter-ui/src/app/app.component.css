@@ -1,0 +1,110 @@
+/* DashboardComponent's private CSS styles */
+
+@font-face {
+  font-family: "KittenSwash";
+  src: url('../KittenSwashTrial.ttf');
+}
+
+
+
+h1 {
+  font-family: "KittenSwash", sans-serif; /* Use fallback font */
+  background-color:#06D6A0;
+  padding: 1%; /* Adjust padding as needed */
+  margin: 0; /* Adjust margin as needed */
+  min-height: 10vh;
+  font-size: 55px;
+  text-align: center;
+ color: #EF476F;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+h2 {
+  text-align: center;
+}
+
+.navigator > div {
+
+  overflow: auto;
+  
+}
+
+#nav-div{
+  margin: 0px;
+  padding: 0%;
+  width: 100%;
+  display: flex;
+}
+
+.animals-menu {
+  padding: 0;
+
+
+  /* flexbox */
+  display: flex;
+  
+  
+  justify-content: space-evenly;
+  
+}
+
+
+
+.menu-ele {
+  font-family: "KittenSwash", sans-serif; 
+  background-color:#06D6A0;
+  border-radius: 2px;
+  padding: 1rem;
+  font-size: 2rem;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: space-evenly;
+  color: #EF476F;
+  text-align: center;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: black;
+
+  
+
+
+
+
+  /* flexbox */
+  order: 0;
+ 
+
+}
+
+
+@media (min-width: 600px) {
+  .menu-ele {
+    width: 25vw;
+    box-sizing: content-box;
+  }
+}
+
+.menu-ele:hover {
+  color: #ff4894;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 1.5px;
+  text-decoration-style:solid;
+  text-decoration-color: #ff4873d4;
+
+}
+
+
+.dfgdfgdfg {
+  
+  text-decoration: none;
+  
+}
+
+.dfgdfgdfg:hover{
+  color: #f0577b;
+  text-decoration: none;
+  
+}
+

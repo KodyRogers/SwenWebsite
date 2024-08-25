@@ -1,0 +1,17 @@
+<p>user works!</p>
+<div *ngIf="user">
+
+    <h2>{{user.name}} Details</h2>
+    <div><span>username: </span>{{user.name}}</div>
+    <div>
+      <label for="user-password">User password: </label>
+      <input id="user-password" [(ngModel)]="user.password" placeholder="password">
+    </div>
+    <div>
+      <label for="user-level">User level: </label>
+      <input id="user-level" [(ngModel)]="user.level" placeholder=0>
+    </div>
+
+</div>
+<button type="button" (click)="goBack()">go back</button>
+<button type="button" (click)="save()">save</button>

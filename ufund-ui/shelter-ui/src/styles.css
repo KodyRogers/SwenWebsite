@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+title {
+    background-color: rgb(202, 119, 10);
+}
+
+html{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #F8FFE5;
+}
+
+
+body{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}

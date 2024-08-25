@@ -1,0 +1,16 @@
+<div *ngIf="animal" id = "animalDetail">
+
+  <h2>{{animal.name}} Details</h2>
+  <div class = "det"><span>id: </span>{{animal.id}}</div>
+  <div class = "det"><span>name: </span>{{animal.name}}</div>
+  <div class = "det"><span>type:</span>{{animal.type}}</div>
+  <div class = "det"><span>breed:</span>{{animal.breed}}</div>
+  <div class = "det"><span>sex:</span>{{animal.sex}}</div> 
+  <div class = "det"><span>age:</span>{{animal.age}}</div>
+  <div class = "det"><span>cost:</span>{{animal.cost}}</div>
+
+</div>
+<div id = "myB">
+<button type="button" (click)="goBack()">go back</button>
+<button type="button" (click)="addCart()">Add to Cart</button>
+</div>

@@ -1,0 +1,108 @@
+/* AnimalsComponent's private CSS styles */
+.animals {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 50%;
+  }
+  .animals li {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .animals li:hover {
+    left: .1em;
+  }
+  
+  .animals a {
+    color: #333;
+    text-decoration: none;
+    background-color: #EEE;
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+  }
+  
+  .animals a:hover {
+    color: #2c3a41;
+    background-color: #e6e6e6;
+  }
+  
+  .animals a:active {
+    background-color: #525252;
+    color: #fafafa;
+  }
+  
+  .animals .badge {
+    display: inline-block;
+    font-size: small;
+    color: white;
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color: #405061;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    min-width: 16px;
+    text-align: right;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+  }
+
+  .user {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 15em;
+  }
+  .user li {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .user li:hover {
+    left: .1em;
+  }
+
+  .user a {
+    color: #333;
+    text-decoration: none;
+    background-color: #EEE;
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+  }
+  
+  .user a:hover {
+    color: #2c3a41;
+    background-color: #e6e6e6;
+  }
+  
+  .user a:active {
+    background-color: #525252;
+    color: #fafafa;
+  }
+  
+  .user .badge {
+    display: inline-block;
+    font-size: small;
+    color: white;
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color: #405061;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    min-width: 16px;
+    text-align: right;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+  }

@@ -1,0 +1,26 @@
+<h2>My Animals</h2>
+
+
+
+
+<div class = "basket">
+<ul class="animals">
+  <li *ngFor="let animal of animals">
+    <a class="animal-button" routerLink="/detail/{{animal.id}}">
+      <span class="badge">{{animal.id}}</span> {{animal.name}}
+    </a>
+    <span class ="delete"><button type="button" class="delete" title="delete animal"
+      (click)="delete(animal)">x</button></span>
+  </li>
+</ul>
+<div class = "transition">
+  
+  <i class="fa-solid fa-fish-fins" ></i>
+  <i class="fa-solid fa-fish-fins"></i>
+  <i class="fa-solid fa-fish-fins"></i>
+  <i class="fa-solid fa-fish-fins"></i></div>
+<a id = "cost">Total: ${{totalCost}}</a>
+<br>
+<span class ="checkout">
+  <button type="button" class="checkout" title="Checkout" (click)="checkout()">Checkout</button></span>
+</div>  

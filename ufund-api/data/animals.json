@@ -1,0 +1,100 @@
+[ {
+  "id" : 1,
+  "name" : "Phoneas",
+  "type" : "dog",
+  "breed" : "Golden Retriever",
+  "sex" : "female",
+  "age" : 7,
+  "cost" : 700.0,
+  "sold" : false
+}, {
+  "id" : 2,
+  "name" : "Frob",
+  "type" : "dog",
+  "breed" : "Golden Retriever",
+  "sex" : "male",
+  "age" : 5,
+  "cost" : 1000.0,
+  "sold" : false
+}, {
+  "id" : 3,
+  "name" : "Frito",
+  "type" : "cat",
+  "breed" : "Black",
+  "sex" : "male",
+  "age" : 2,
+  "cost" : 300.0,
+  "sold" : false
+}, {
+  "id" : 4,
+  "name" : "Pumpkin",
+  "type" : "cat",
+  "breed" : "Orange",
+  "sex" : "male",
+  "age" : 13,
+  "cost" : 560.0,
+  "sold" : false
+}, {
+  "id" : 5,
+  "name" : "Mister Miyagi",
+  "type" : "dog",
+  "breed" : "pitbull",
+  "sex" : "male",
+  "age" : 3,
+  "cost" : 1500.0,
+  "sold" : false
+}, {
+  "id" : 6,
+  "name" : "Olaf",
+  "type" : "dog",
+  "breed" : "Pomeranian",
+  "sex" : "male",
+  "age" : 1,
+  "cost" : 350.0,
+  "sold" : false
+}, {
+  "id" : 7,
+  "name" : "Ducky",
+  "type" : "cat",
+  "breed" : "Gray",
+  "sex" : "female",
+  "age" : 5,
+  "cost" : 950.0,
+  "sold" : false
+}, {
+  "id" : 8,
+  "name" : "lulu",
+  "type" : "dog",
+  "breed" : "Golden Retriever",
+  "sex" : "female",
+  "age" : 7,
+  "cost" : 1000.0,
+  "sold" : false
+}, {
+  "id" : 9,
+  "name" : "lemon",
+  "type" : "dog",
+  "breed" : "Golden Retriever",
+  "sex" : "male",
+  "age" : 7,
+  "cost" : 1000.0,
+  "sold" : false
+}, {
+  "id" : 10,
+  "name" : "lemon1",
+  "type" : "dog",
+  "breed" : "Golden Retriever",
+  "sex" : "male",
+  "age" : 7,
+  "cost" : 1000.0,
+  "sold" : true
+}, {
+  "id" : 11,
+  "name" : "lemon2",
+  "type" : "dog",
+  "breed" : "Golden Retriever",
+  "sex" : "male",
+  "age" : 7,
+  "cost" : 1000.0,
+  "sold" : true
+} ]

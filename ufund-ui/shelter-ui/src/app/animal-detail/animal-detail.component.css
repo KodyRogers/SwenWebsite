@@ -1,0 +1,87 @@
+/* AnimalDetailComponent's private CSS styles */
+label {
+  color: #00c3ff;
+  font-weight: bold;
+}
+h2{
+  display: flex;
+
+margin: auto;
+margin-top: 30px;
+width: 40%;
+  background-color: rgb(207, 207, 207);
+  text-align:left;
+  padding: 18px;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px; 
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  color: #5c5c5c;
+  position: relative;
+  
+
+ 
+ 
+}
+
+span{
+  margin-left: 2px;
+}
+
+
+
+.det{
+  display: flex;
+  padding: 10px;
+  width: 41%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  background-color: rgba(244, 242, 242, 0.94);
+  text-align: left;
+  
+}
+
+input {
+  font-size: 1em;
+  padding: .5rem;
+}
+button {
+  margin-top: 20px;
+  
+  display: grid;
+  justify-content: center;
+  background-color:#1B9AAA;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  box-shadow: #0D4D55 4px 4px 0 0;
+  color: #ffffff;
+cursor: pointer;
+font-weight: 600;
+font-size: 18px;
+padding: 0 18px;
+line-height: 50px;
+text-align: center;
+text-decoration: none;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+
+
+}
+
+#myB{
+  display: flex;
+  justify-content: center;
+  gap:25px;
+}
+
+
+
+button:hover {
+  background-color: #74d7e4;
+}
+button:disabled {
+background-color: #eee;
+color: #ccc;
+cursor: auto;
+}

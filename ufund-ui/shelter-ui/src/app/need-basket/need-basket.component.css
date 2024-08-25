@@ -1,0 +1,185 @@
+/* AnimalsComponent's private CSS styles */
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "KittenSwash", sans-serif; 
+  font-size: 2rem;
+  color: #ffb3b3;
+  position: relative;
+  -webkit-text-stroke: 1px;
+-webkit-text-stroke-color:#644600;
+}
+
+h2::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 25%;
+  height: 8px;
+  border-radius: 4px;
+  border-color: rgb(170, 77, 0);
+  border-style: solid;
+  border-width: 1.5px;
+  background: linear-gradient(125deg,#efeda7, #fff396,#f5d6a6, #f0e885);
+  background-size: 200% 200%;
+  animation: cool-underline 2s infinite;
+}
+
+@keyframes cool-underline {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.basket{
+  display: flex;
+  justify-content: left;
+}
+
+.animals {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 20em;
+  margin-left: 125px;
+  height: 60vh;
+  background: linear-gradient(135deg, #ffd4c1,#ffcab3, #ffd9c9); /* Cotton candy blue gradient */
+  border-radius: 6px;
+  border-width: 8px;
+  border-style: double;
+  border-color: #833302;
+  margin-right: 10px;
+}
+.animals li {
+  position: relative;
+  cursor: pointer;
+}
+
+.animals li:hover {
+  left: .1em;
+}
+
+.animals a {
+  color: #333;
+  text-decoration: none;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+  display: block;
+  width: 90%;
+}
+
+.animals a:hover {
+  color: #2c3a41;
+  background-color: #e6e6e6;
+}
+
+.animals a:active {
+  background-color: #525252;
+  color: #fafafa;
+}
+
+.animals .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #405061;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 16px;
+  text-align: right;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
+
+.animals .delete {
+  color: black;
+  line-height: 1.5em;
+  position:absolute;
+  left: 130px;
+  top: 2px;
+  height: 2em;
+  min-width: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#cost, .checkout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#cost {
+  font-size: 2.8rem; /* Increase font size for emphasis */
+  color: #00bd06; /* Green color for positive association */
+  font-weight: bold; /* Make the text bold for emphasis */
+  text-transform: uppercase; /* Convert text to uppercase */
+  font-family: Arial, sans-serif; /* Choose a suitable font */
+  text-shadow: 2px 2px 3px rgba(104, 255, 101, 0.785); /* White shadow for 3D effect */
+  background-image: linear-gradient(to right, #39dd3e, #00ff0d); /* Background gradient for a cooler look */
+  -webkit-background-clip: text; /* Clip text to background */
+  -webkit-text-fill-color: transparent; /* Mae text transparent to reveal background */
+  -webkit-text-stroke-width: 2px;
+}
+
+
+
+.checkout button{
+  background-color:#1B9AAA;
+  border: 2px solid #ffffff;
+  border-radius: 200px;
+  box-shadow: #0D4D55 4px 4px 0 0;
+  color: #ffffff;
+cursor: pointer;
+font-weight: 600;
+font-size: 20px;
+padding: 0 20px;
+line-height: 125px;
+text-align: center;
+margin-top: 15px;
+
+
+}
+.checkout button:hover {
+  background-color: #74d7e4;
+}
+
+.transition{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: orange;
+  gap:25px;
+  
+  
+}
+
+i{
+  background-color: #a5ccff;
+  border-radius: 40px;
+  border-color: #1B9AAA;
+  border-style: solid;
+  
+}
+
+
+

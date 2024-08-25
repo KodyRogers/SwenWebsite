@@ -1,0 +1,182 @@
+/* AnimalsComponent's private CSS styles */
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "KittenSwash", sans-serif; 
+  font-size: 2rem;
+  color: #d063cd;
+  position: relative;
+  -webkit-text-stroke: 1px;
+-webkit-text-stroke-color: rgb(84, 0, 103);
+}
+
+h2::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 25%;
+  height: 8px;
+  border-radius: 4px;
+  border-color: purple;
+  border-style: solid;
+  border-width: 1px;
+  background: linear-gradient(90deg,#d0b0fe, #cca8ff,#bfb1ff, #bdc6ff);
+  background-size: 200% 200%;
+  animation: cool-underline 2s infinite;
+  
+}
+
+@keyframes cool-underline {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#search-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#search-div label {
+  color: #4a4a4a; /* Dark grey text color */
+  font-size: 1.2rem; /* Larger font size */
+  margin-right: 10px;
+}
+
+#search-animal {
+  width: 500px;
+  padding: 10px; /* Increased padding */
+  border: 2px solid #4499f3; /* Blue border */
+  border-radius: 20px; /* Rounded corners */
+  outline: none; /* Remove outline */
+  transition: border-color 0.3s; /* Smooth border color transition */
+  background-color: #ebf4fa;
+  font-size: 15px;
+}
+#search-animal::placeholder {
+  color: #767878; /* Placeholder text color */
+}
+
+#search-animal:focus::placeholder {
+  opacity: 0; /* Make placeholder text transparent on focus */
+}
+
+#search-animal:focus {
+  border-color: hsl(222, 100%, 50%); /* Orange border on focus */
+  background-color: rgb(242, 249, 249);
+  
+}
+
+#search-type-div {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  
+}
+
+label{
+  font-size: 18px;
+  font-family: cursive;
+
+}
+
+
+
+.add-button {
+  margin-left: 10px;
+  padding: 10px 20px; /* Increased padding */
+  background-color: #957FEF;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.2rem; /* Larger font size */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.add-button:hover {
+  background-color: #B79CED;
+}
+
+
+
+
+
+.animals {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  gap: 75px;
+  display: flex;
+  color: #003459;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  font-family: fantasy;
+  font-size: 15px;
+}
+.animals li {
+  flex-basis: calc(25% - 20px);
+  position: relative;
+  cursor: pointer;
+
+}
+
+.animals li:hover {
+  left: .1em;
+}
+
+.animals a {
+  
+  color: #333;
+  text-decoration: none;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em 0;
+  height: 5em;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  border-color: #53cfe2;
+  border-width: 5px;
+  border-style:dotted
+}
+
+.animals a:hover {
+  color: #2c3a41;
+  background-color: #e6e6e6;
+
+}
+
+.animals a:active {
+  background-color: #525252;
+  color: #fafafa;
+}
+
+.animals .badge {
+  display: inline-block;
+  font-size: small;
+ 
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #6f00ab;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 16px;
+  text-align: right;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}

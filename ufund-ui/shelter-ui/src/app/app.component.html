@@ -1,0 +1,24 @@
+<h1>{{title}}
+  <span><i class="fas fa-paw"></i></span>
+</h1>
+
+
+<nav id="navigator">
+  <div id="nav-div">
+    <a class="menu-ele" routerLink="/dashboard">
+      Dashboard
+      <i class="fa-solid fa-dog"></i>
+     </a>
+    <a class="menu-ele" routerLink="/animals">Animals
+      <i class="fa-solid fa-cat"></i>
+    </a>
+    <div [style.display]="currentUser.level == 0 ? 'none' : ''" routerLink="/admin" class="menu-ele" id="admin-route"><a class="dfgdfgdfg">Admin</a></div>
+    <div [style.display]="currentUser.level > 0 ? 'none' : ''" routerLink="/basket" class="menu-ele" id="basket-route"><a class="dfgdfgdfg">Basket <i class="fa-solid fa-fish"></i></a>
+     
+    </div>
+    <a class="menu-ele" routerLink="/login">{{ currentUser.name == 'placeholder' ? 'Login' : 'Login (' + currentUser.name + ')' }} <i class="fa-solid fa-frog"></i></a>
+  </div>
+</nav>
+
+
+<router-outlet></router-outlet>

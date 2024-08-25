@@ -1,0 +1,46 @@
+[ {
+  "name" : "helper1",
+  "password" : "1234",
+  "level" : 0,
+  "basket" : [ ]
+}, {
+  "name" : "admin",
+  "password" : "admin",
+  "level" : 1,
+  "basket" : [ ]
+}, {
+  "name" : "test1",
+  "password" : "secure",
+  "level" : 0,
+  "basket" : [ ]
+}, {
+  "name" : "aaaa",
+  "password" : "aaaa",
+  "level" : 0,
+  "basket" : [ ]
+}, {
+  "name" : "kasmk",
+  "password" : "adsad",
+  "level" : 0,
+  "basket" : [ ]
+}, {
+  "name" : "asdasd",
+  "password" : "asdasda",
+  "level" : 0,
+  "basket" : [ ]
+}, {
+  "name" : "sdfsdf",
+  "password" : "sdfsdf",
+  "level" : 0,
+  "basket" : [ ]
+}, {
+  "name" : "sad;mas",
+  "password" : "alsdmlaskdo[a",
+  "level" : 0,
+  "basket" : [ ]
+}, {
+  "name" : "sad;massaldasd",
+  "password" : "alsdmlaskdo[a",
+  "level" : 0,
+  "basket" : [ ]
+} ]

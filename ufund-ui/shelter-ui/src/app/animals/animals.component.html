@@ -1,0 +1,36 @@
+<h2>Our Animals</h2>
+
+
+<div id="creation-div">
+  <label for="new-animal">Animal name: </label>
+  <input id="new-animal" #animalName />
+
+  <!-- (click) passes input value to add() and then clears the input -->
+  <button type="button" class="add-button" (click)="add(animalName.value); animalName.value=''">
+    Add animal
+  </button>
+</div>
+
+<div id="search-div">
+ 
+  <input id="search-animal" #animalName placeholder="Input animal name" />
+  
+  <button type="button" class="add-button" (click)="search()">
+    Search animal
+  </button>
+</div>
+
+<ul id="search-type-div">
+  <li *ngFor="let type of types">
+    <label for="type-animal">{{type}}:</label>
+    <input type="radio" id="{{type}}" name="type_search" value="{{type}}" (click)="searchType(type)">
+  </li>
+</ul>
+
+<ul class="animals">
+  <li *ngFor="let animal of animals">
+    <a class="animal-button" routerLink="/detail/{{animal.id}}">
+      <span class="badge">{{animal.id}}</span> {{animal.name}}
+    </a>
+  </li>
+</ul>
